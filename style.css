@@ -5,8 +5,9 @@
 }
 
 .section-title{
-    color: #fff;
+    color: #000000;
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .btn-primary{
@@ -107,27 +108,29 @@ nav li a{
     margin-top: 15px;
 }
 
-/* main section start */
 
+
+/* main section start */
 main{
     max-width: 1150px;
     margin: auto;
 }
 
+.about-des{
+    font-size: 20px;
+    color: #000000;
+}
 /* About section start */
+
+
 
 .about{
     text-align: center;
     width: 650px;
     margin: auto;
-    background-color: #FD6E0A;
+    background-color: #fdf1e7;
     padding: 70px 90px;
     margin-top: 50px;
-}
-
-.about .about-des{
-    color: rgb(235, 233, 233);
-    font-size: 20px;
 }
 
 .about-info-container{
@@ -139,3 +142,29 @@ main{
 .about-inf{
     text-align: center;
 }
+
+/* whta i do */
+
+.what-i-do{
+    text-align: center;
+    width: 730px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+/* skills section */
+ .skill{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+ }
+
+ .first-skill{
+   
+ }
+
+ .skill h4{
+    font-size: 22px;
+ }
+
